@@ -96,7 +96,7 @@ test_script:
   - yarn pack
   - cd ../..
 
-  - node ./scripts/win-appveyor-build.js
+ # - node ./scripts/win-appveyor-build.js
 
 # Don't actually build.
 build: off
